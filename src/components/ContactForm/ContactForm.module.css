@@ -1,0 +1,16 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Input{
+   padding:5px 10px;   
+   margin: 10px;
+   border-radius:5%;
+}
+.Input:hover{
+   background-color: #053852; 
+   padding:7px 12px; 
+   color:white;
+   font-weight: 600;
+}

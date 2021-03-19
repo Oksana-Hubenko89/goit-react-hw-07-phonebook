@@ -1,0 +1,39 @@
+.message {
+padding: 10px 25px;
+background-color: red;
+color: white;
+position: absolute;
+top: 10%;
+right: 30%;
+text-shadow: #053852 -1px 1px, #053852 1px 1px, #053852 1px -1px, #053852 -1px -1px;
+text-decoration: none;
+user-select: none;
+padding: .3em .7em;
+outline: none;
+border-radius: 7px;
+box-shadow:
+ inset -2px -2px rgba(0,0,0,.3),
+ inset 2px 2px rgba(255,255,255,.3);
+transition: background-position 250ms, color 1s, text-shadow 1s;
+}
+.enter{
+    opacity: 0;
+    transform: translateX(100%);
+}
+.enterActive{
+    opacity: 1;
+    transform: translateX(0);
+    transition:all 250ms linear;
+}
+
+.exit{
+    opacity: 1;
+    transform: translateX(0);
+  
+}
+.exitActive{
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 250ms linear;
+}
+ 

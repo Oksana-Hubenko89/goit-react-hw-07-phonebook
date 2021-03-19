@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "name": "Galia",
+      "number": "+38099653215",
+      "id": 1
+    },
+    {
+      "name": "Natasha",
+      "number": "+380632154563",
+      "id": 2
+    },
+    {
+      "name": "Katia",
+      "number": "+380965322115",
+      "id": 3
+    }
+  ]
+}
